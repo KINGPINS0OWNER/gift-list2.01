@@ -1,0 +1,86 @@
+.container {
+  text-align: center;
+ 
+  max-width: auto;
+  min-height: 100vh; /* Set minimum height to 100% of the viewport height */
+  transition: background-color 0.3s ease;
+  display: flex;
+  flex-direction: column; 
+  }
+  .body{
+    background-color: white;
+  }
+  /* Add a local class to make the h1 selector pure */
+  .title {
+    color: #333;
+  }
+  
+  .login-form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Add other CSS styles as needed */
+  .toggleButton {
+    background-color: gray;
+    border: none;
+    cursor: pointer;
+    color: #333;
+    font-size: 1rem;
+    
+  }
+  /* Light Mode Styles */
+.lightMode {
+  background-color: white;
+  color: #333;
+}
+.lightMode .header {
+  background-color: gray;
+  color: white;
+}
+.lightMode .container {
+  background-color: gray;
+  color: white;
+}
+
+.lightMode .userIcon {
+  color: #333;
+}
+
+.lightMode .toggleButton {
+  color: #333;
+}
+
+/* Dark Mode Styles */
+.darkMode {
+  background-color: black;
+  color: white;
+}
+
+.darkMode .container {
+  background-color: gray;
+  color: white;
+}
+
+/* Apply dark mode styles to the top-level elements */
+.darkMode body {
+  background-color: black;
+  color: white;
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 150px;
+}
+.login-form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  padding-bottom:10px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
